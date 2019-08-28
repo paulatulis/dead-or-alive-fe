@@ -63,7 +63,7 @@ class SignUp extends Component {
                     </div>
                     <div className="row">
                         <div className="input-field col s12">
-                            <button className="waves-effect waves-light green darken-3 btn-large">Sign Up!</button>
+                            <button className="waves-effect waves-light blue-grey darken-2 btn-large">Enter</button>
                         </div>
                     </div>
                 </form>

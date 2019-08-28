@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 class HumanCard extends React.Component {
   
   imgUrl = () => {
-    if(this.props.user.zombie === false && this.props.user.img_url === null) {return 'https://image.flaticon.com/icons/svg/145/145859.svg'}
+    if(this.props.user.zombie === false && this.props.user.img_url === "") {return 'https://image.flaticon.com/icons/svg/145/145859.svg'}
     else {return this.props.user.img_url}
   }
 

@@ -8,7 +8,7 @@ import Profile from '../views/Profile';
 function Navbar(props) {
     return(
         <nav>
-            <div className="nav-wrapper">
+            <div className="nav-wrapper grey darken-1">
                  
                 {
                     localStorage.token ? 
