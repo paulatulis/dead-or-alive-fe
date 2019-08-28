@@ -30,6 +30,7 @@ class Login extends Component {
             this.setState({user: data.user, redirect: <Redirect to='/profile' /> })
             localStorage.setItem('token', data.jwt)
             window.history.pushState({url: "/profile"}, "", "/profile")
+            this.props.setZombieStatus(data)
             this.forceUpdate()
           }
         })

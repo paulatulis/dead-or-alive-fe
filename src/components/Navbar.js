@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../images/zombielogo.png';
 import Login from '../views/Login';
 import SignUp from '../views/SignUp';
 import Quiz from '../views/Quiz';
@@ -10,7 +9,7 @@ function Navbar(props) {
     return(
         <nav>
             <div className="nav-wrapper">
-                <Link to='/'><img alt="logo" className="brand-logo center" src={logo}/></Link> 
+                 
                 {
                     localStorage.token ? 
                         <div className="logged-in">
